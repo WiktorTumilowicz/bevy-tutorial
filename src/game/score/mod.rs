@@ -1,10 +1,10 @@
 use bevy::prelude::*;
 
-use resources::*;
-use systems::*;
-
 pub mod resources;
 mod systems;
+
+use resources::*;
+use systems::*;
 
 pub struct ScorePlugin;
 

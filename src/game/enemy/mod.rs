@@ -1,11 +1,11 @@
 use bevy::prelude::*;
 
-use resources::*;
-use systems::*;
-
 pub mod components;
 pub mod resources;
 mod systems;
+
+use resources::*;
+use systems::*;
 
 pub const NUMBER_OF_ENEMIES: usize = 4;
 pub const ENEMY_SPEED: f32 = 200.0;

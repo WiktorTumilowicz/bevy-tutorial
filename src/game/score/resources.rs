@@ -19,7 +19,7 @@ pub struct HighScore {
 impl Default for HighScore {
     fn default() -> HighScore {
         HighScore {
-            scores: Vec::default(),
+            scores: Vec::new(),
         }
     }
 }

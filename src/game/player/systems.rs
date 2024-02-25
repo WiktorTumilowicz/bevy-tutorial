@@ -2,14 +2,14 @@ use bevy::prelude::*;
 use bevy::window::PrimaryWindow;
 
 use super::components::*;
-use crate::enemy::components::Enemy;
 use crate::events::GameOver;
-use crate::score::resources::Score;
-use crate::star::components::Star;
+use crate::game::enemy::components::Enemy;
+use crate::game::score::resources::Score;
+use crate::game::star::components::Star;
 
 //Constants
-use crate::enemy::ENEMY_SIZE;
-use crate::star::STAR_SIZE;
+use crate::game::enemy::ENEMY_SIZE;
+use crate::game::star::STAR_SIZE;
 pub const PLAYER_SPEED: f32 = 500.0;
 pub const PLAYER_SIZE: f32 = 64.0;
 
